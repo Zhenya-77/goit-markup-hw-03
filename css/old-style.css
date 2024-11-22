@@ -1,0 +1,246 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: #fff;
+  color: #434455;
+  margin: 0;
+  width: 1158px;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+/* Хедер */
+
+
+.header-section {
+  border-bottom: 1px solid #e7e9fc
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  
+}
+
+.container-head {
+  display: flex;
+}
+
+.navigation {
+  align-items: center;
+}
+
+.navigation-list {
+  display: flex;
+  gap: 40px;
+ 
+}
+
+.navigation-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-right: 76px
+}
+.studio-color {
+  color: #2e2f42;
+}
+.navigation-list-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  display: flex;
+  padding: 24px 0;
+}
+.navigation-list-item:hover,
+.navigation-list-item:focus {
+  color: #404bbf;
+}
+.address-box {
+  font-style: normal;
+}
+
+.address-list {
+  display: flex;
+  gap: 40px;
+
+}
+.address-item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.address-item:hover,
+.address-item:focus {
+  color: #404bbf;
+}
+
+/* Секція 1 */
+.section-first {
+  background-color: #2e2f42;
+  height: 600px;
+  padding: 188px 0;
+}
+.section-title {
+  max-width: 496px;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  padding: 188px 472px 48px 472px;
+}
+.section-first-button {
+  display: block;
+  min-width: 169px;
+  margin: 0 635px 188px 636px;
+  width: 169px;
+  height: 56px;
+  border: none;
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.section-first-button:hover,
+.section-first-button:focus {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+/* Секція 2 */
+
+.section-second-list {
+  display: flex;
+  margin: 120px 156px;
+  gap: 24px;
+}
+.section-second-h-three {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.section-second-p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* Секція 3 */
+.section-third {
+  background-color: #f4f4fd;
+}
+.section-third-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  padding: 120px 639px 72px 639px;
+}
+
+.section-third-list {
+  display: flex;
+  gap: 24px;
+  padding: 0px 156px 120px 156px;
+}
+.section-third-item {
+  background: #fff;
+}
+.section-third-item-h {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.section-third-item-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+/* Секція 4 */
+.section-four-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  text-align: center;
+  padding: 120px 639px 72px 639px;
+}
+
+.section-four-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  padding: 0px 156px 120px 156px;
+}
+
+.section-four-item-h {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.section-four-item-p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* Футер */
+.footer-box {
+  background-color: #2e2f42;
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.footer-span {
+  color: #f4f4fd;
+}
+.footer-info {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
