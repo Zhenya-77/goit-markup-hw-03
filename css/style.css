@@ -3,10 +3,18 @@ body {
   background: #fff;
   color: #434455;
   margin: 0;
-  width: 1440px;
+  width: 1158px;
+}
+
+img {
+  display: block;
 }
 
 /* Хедер */
+
+.header-section {
+  border-bottom: 1px solid #e7e9fc
+}
 
 a {
   text-decoration: none;
@@ -20,15 +28,21 @@ ul {
 
 nav {
   display: flex;
+  
 }
 
 .container-head {
   display: flex;
 }
 
+.navigation {
+  align-items: center;
+}
+
 .navigation-list {
   display: flex;
   gap: 40px;
+ 
 }
 
 .navigation-title {
@@ -39,7 +53,7 @@ nav {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding: 24px 76px 24px 156px;
+  margin-right: 76px
 }
 .studio-color {
   color: #2e2f42;
@@ -51,7 +65,7 @@ nav {
   letter-spacing: 0.02em;
   color: #2e2f42;
   display: flex;
-  margin: 24px 0;
+  padding: 24px 0;
 }
 .navigation-list-item:hover,
 .navigation-list-item:focus {
@@ -63,9 +77,8 @@ nav {
 
 .address-list {
   display: flex;
-  justify-content: end;
   gap: 40px;
-  margin: 24px 156px 24px 332px;
+
 }
 .address-item {
   font-size: 16px;
