@@ -146,6 +146,7 @@ ul {
 /* Секція 3 */
 .section-third {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .section-third-title {
   font-size: 36px;
@@ -154,9 +155,21 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.section-third-list {
+  display: flex;
+  gap: 24px;
 }
 .section-third-item {
   background: #fff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.section-third-items-box {
+  padding: 32px 0;
 }
 .section-third-item-h {
   font-weight: 500;
@@ -165,6 +178,8 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .section-third-item-p {
   font-weight: 400;
@@ -173,6 +188,7 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  text-align: center;
 }
 /* Секція 4 */
 .section-four-title {
