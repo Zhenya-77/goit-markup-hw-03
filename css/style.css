@@ -240,8 +240,11 @@ ul {
 /* Футер */
 .footer-box {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -254,6 +257,7 @@ ul {
   color: #f4f4fd;
 }
 .footer-info {
+  max-width: 264px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
