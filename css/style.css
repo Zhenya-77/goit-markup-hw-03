@@ -13,12 +13,26 @@ a {
 ul {
   list-style: none;
   padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+p {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
 
 /* Хедер */
 .header-section {
   border-bottom: 1px solid #e7e9fc;
 }
+
 .header-box {
   display: flex;
 }
@@ -31,6 +45,7 @@ ul {
 .navigation {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 
 .navigation-title {
@@ -86,6 +101,9 @@ ul {
 .section-first {
   background-color: #2e2f42;
   padding: 188px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .section-title {
   max-width: 496px;
@@ -94,6 +112,8 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
 }
 .section-first-button {
   display: block;
@@ -109,6 +129,8 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
 }
 .section-first-button:hover,
 .section-first-button:focus {
